@@ -1,12 +1,4 @@
-// app/layout.js
-
-export const metadata = {
-  title: 'Metaversus',
-  description: 'A brief description of your application.',
-  icons: {
-    icon: '/favicon.ico',
-  },
-};
+import '../styles/globals.css';
 
 const RootLayout = ({ children }) => (
   <html lang="en">
